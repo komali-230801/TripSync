@@ -285,9 +285,16 @@ async function handleAcceptInvitation(invitation) {
 >
 
         <div className="p-5 border-b border-slate-700">
-          <h1 className="text-2xl font-bold text-blue-400">
-            TripSync ✈️
-          </h1>
+  <div className="flex items-center gap-3">
+    <img
+      src="/favicon.png"
+      alt="TripSync Logo"
+      className="w-10 h-10 object-contain"
+    />
+    <h1 className="text-2xl font-bold text-blue-400">
+      TripSync
+    </h1>
+    </div>
           <p className="text-sm text-slate-400 mt-1">
             Plan together. Travel together.
           </p>
